@@ -1,0 +1,43 @@
+.card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.card-content h3 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  font-size: 1em;
+  margin-bottom: 8px;
+}
+
+.btn {
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #005bb5;
+}
